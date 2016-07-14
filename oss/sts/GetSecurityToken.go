@@ -11,7 +11,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"errors"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/types"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/types"
 	"io/ioutil"
 	"math/rand"
 	"net/http"

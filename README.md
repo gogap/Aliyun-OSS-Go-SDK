@@ -2,7 +2,7 @@
 ---
 
 ## How to Install ##
-* `go get github.com/MieYua/Aliyun-OSS-Go-SDK/oss`
+* `go get github.com/gogap/Aliyun-OSS-Go-SDK/oss`
 
 ---
 
@@ -22,7 +22,7 @@
 ---
 
 ## Godoc ##
-* <http://godoc.org/github.com/MieYua/Aliyun-OSS-Go-SDK/oss>  
+* <http://godoc.org/github.com/gogap/Aliyun-OSS-Go-SDK/oss>
 
 ---
 

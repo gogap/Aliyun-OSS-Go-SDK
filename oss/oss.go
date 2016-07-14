@@ -14,13 +14,13 @@ package oss
 
 import (
 	"errors"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/common"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/model/bucket"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/model/multipart"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/model/object"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/model/service"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/sts"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/types"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/common"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/model/bucket"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/model/multipart"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/model/object"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/model/service"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/sts"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/types"
 	"net/http"
 )
 

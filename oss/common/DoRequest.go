@@ -6,13 +6,13 @@
 package common
 
 import (
-	"fmt"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/consts"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/consts"
 	"io"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
+	"log"
 )
 
 // 	Deal with some requests.
@@ -45,7 +45,7 @@ func (c *Client) DoRequest(method, path, canonicalizedResource string, params ma
 		req.Header.Set(consts.HH_CONTENT_LENGTH, strconv.Itoa(int(req.ContentLength)))
 	}
 
-	fmt.Println(req, canonicalizedResource)
+	log.Println(req, canonicalizedResource)
 	c.SignHeader(req, canonicalizedResource)
 
 	resp, err = c.TClient.HttpClient.Do(req)

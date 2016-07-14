@@ -10,7 +10,7 @@ import (
 	"crypto/hmac"
 	"crypto/sha1"
 	"encoding/base64"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/types"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/types"
 	"hash"
 	"io"
 	"net/http"

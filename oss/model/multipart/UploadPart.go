@@ -8,8 +8,8 @@ package multipart
 import (
 	"bytes"
 	"errors"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/consts"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/types"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/consts"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/types"
 	"io"
 	"io/ioutil"
 	"log"

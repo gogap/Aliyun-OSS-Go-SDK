@@ -8,8 +8,8 @@ package multipart
 import (
 	"encoding/xml"
 	"errors"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/consts"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/types"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/consts"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/types"
 	"io/ioutil"
 	"log"
 	"strconv"

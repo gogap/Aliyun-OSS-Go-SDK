@@ -7,7 +7,7 @@ package object
 
 import (
 	"errors"
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/consts"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/consts"
 	"io/ioutil"
 	"log"
 )

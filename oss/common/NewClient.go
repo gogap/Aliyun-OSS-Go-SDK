@@ -6,7 +6,7 @@
 package common
 
 import (
-	"github.com/MieYua/Aliyun-OSS-Go-SDK/oss/types"
+	"github.com/gogap/Aliyun-OSS-Go-SDK/oss/types"
 	"net/http"
 )
 
