@@ -35,13 +35,14 @@ func GetSecurityToken(accessKeyId, accessKeySecret string, assumeRole *types.Ass
 	if err != nil {
 		return
 	}
-	policyUrl, err := url.Parse(string(bs))
-	if err != nil {
-		return
-	}
-	policyEncode := policyUrl.String()
-	policyEncode = strings.Replace(policyEncode, "=", "%3D", -1)
-	policyEncode = strings.Replace(policyEncode, "&", "%26", -1)
+
+	// policyUrl, err := url.Parse(string(bs))
+	// if err != nil {
+	// 	return
+	// }
+	// policyEncode := policyUrl.String()
+	// policyEncode = strings.Replace(policyEncode, "=", "%3D", -1)
+	// policyEncode = strings.Replace(policyEncode, "&", "%26", -1)
 
 	date := time.Now().UTC().Format("2006-01-02T15:04:05Z")
 
